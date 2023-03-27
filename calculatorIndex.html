@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculatorStyle.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <h1> CALCULATOR</h1> -->
+        <div class="calc-border">
+            <h3>casio</h3>
+            <input type="text" id="display">
+        
+            <div class="button-div">
+                <input type="button" class="button numbers" value="7" onclick="btnClick(value)">
+                <input type="button" class="button numbers" value="8"onclick="btnClick(value)">
+                <input type="button" class="button numbers" value="9" onclick="btnClick(value)">
+                <input type="button" class="button operator" value="/" onclick="btnClick(value)">
+                <br>
+                <input type="button" class="button numbers" value="4" onclick="btnClick(value)">
+                <input type="button" class="button numbers" value="5" onclick="btnClick(value)">
+                <input type="button" class="button numbers" value="6" onclick="btnClick(value)">
+                <input type="button" class="button operator" value="*" onclick="btnClick(value)">
+                <br>
+                <input type="button" class="button numbers" value="1" onclick="btnClick(value)">
+                <input type="button" class="button numbers" value="2" onclick="btnClick(value)">
+                <input type="button" class="button numbers" value="3" onclick="btnClick(value)">
+                <input type="button" class="button operator" value="+" onclick="btnClick(value)">
+                <br>
+                <input type="button" class="button clear" value="C" onclick="clearDisplay()">
+                <input type="button" class="button numbers" value="0" onclick="btnClick(value)">
+                <input type="button" class="button result" value="=" onclick="result()" >
+                <input type="button" class="button operator" value="-" onclick="btnClick(value)">
+                <br>
+                
+                 
+            </div>
+        
+        </div>
+        
+    </div>    
+
+    
+<!-- javaScript  -->
+    <script src="calculator.js"></script>   
+</body>
+</html>

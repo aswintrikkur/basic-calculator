@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+    /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220511/pngtree-vector-background-of-scientific-and-technological-system-for-calculating-complex-data-image_1298993.jpg); */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_K7N3Idj04DH9vabRxg1Pf5q02rxUhg4MftiN6mLEtve-Rl3j_MOLiDcLgZkeeYPbBXM&usqp=CAU); */
+    /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220511/pngtree-vector-background-of-scientific-and-technological-system-for-calculating-complex-data-image_1298991.jpg); */
+    /* background-image: url(https://img.pikbest.com/backgrounds/20190730/calculation-of-various-digital-information-background-v_1517337jpg!f305cw); */
+    background: linear-gradient(270deg,rgb(0, 0, 0,.5),rgb(255, 255, 255,.5));
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+
+}
+.container h1 {
+    margin: 0px 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: rgb(40, 46, 46);
+    text-shadow:  2px 3px 10px;
+}
+.calc-border {
+    width: 418px;
+    height: 500px;
+    background-color: rgb(43, 41, 41);
+    margin: 70px 0px;
+    box-shadow: 50px 20px 70px 20px;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+.calc-border h3 {
+    color: #fff;
+}
+#display {
+    margin-top: 25px;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(182, 204, 209);
+    font-size: 4rem;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.button-div {
+    /* background: #000; */
+    margin: 15px 0px;
+}
+.button {
+    width: 70px;
+    height: 70px;
+    margin: 6px 12px;
+    border-radius: 15px;
+    background-color: rgb(58, 57, 57);
+    color: #fff;
+    font-size: 2rem;
+}
+.numbers {
+    background-color: rgba(109, 109, 109, 0.685);
+}
+.clear {
+    background-color: rgb(199, 5, 5);
+}
